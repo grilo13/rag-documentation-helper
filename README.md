@@ -5,6 +5,12 @@ A repository for learning LangChain by building a generative AI application.
 This is a web application is using a Pinecone as a vectorsotre and answers questions about LangChain 
 (sources from LangChain official documentation).
 
+Assistant UI Example
+
+![Description](https://github.com/grilo13/rag-documentation-helper/blob/main/static/assistant_ui_rag.gif)
+
+Streamlit Example
+
 ![Description](https://github.com/grilo13/rag-documentation-helper/blob/main/static/streamlit_rag.gif)
 
 ## Tech Stack
