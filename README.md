@@ -1,6 +1,8 @@
 # LangChain Documentation Helper
 
-This project implements a Retrieval-Augmented Generation (RAG) pipeline by storing documents in a Milvus vector database, enabling efficient similarity searches. 
+This project is based on a [Udemy course](https://www.udemy.com/course/langchain/) but has been enhanced with new features and a restructured architecture to create a LangChain documentation chatbot. 
+
+It implements a Retrieval-Augmented Generation (RAG) pipeline, using a Milvus vector database for efficient document retrieval.
 
 It features:
 - Document Ingestion: Embeds and stores documents in Milvus for retrieval
