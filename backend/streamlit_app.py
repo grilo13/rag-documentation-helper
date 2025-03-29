@@ -5,10 +5,10 @@ import requests
 import streamlit as st
 from PIL import Image
 
-from src.utils.core import run_llm
+from utils.core import run_llm
 
 st.set_page_config(
-    page_title="Your App Title",
+    page_title="RAG Documentation Helper",
     page_icon="🧊",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -67,7 +67,7 @@ with st.sidebar:
     st.write(f"**Name:** {user_name}")
     st.write(f"**Email:** {user_email}")
 
-st.header("LangChain🦜🔗 Udemy Course- Helper Bot")
+st.header("LangChain🦜🔗 RAG LangChain Documentation Helper")
 
 # persist in the memory user input history and what the chat answers
 # because this file is running infinitely, we need to have a way to store the messages

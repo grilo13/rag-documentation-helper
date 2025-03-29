@@ -1,7 +1,7 @@
 from typing import Set, List, Tuple
 import json
 from schemas.message import MessageContainer
-from backend.src.utils.core import run_llm
+from backend.utils.core import run_llm
 
 
 def process_message_container(message_container: MessageContainer) -> List[Tuple[str, str]]:

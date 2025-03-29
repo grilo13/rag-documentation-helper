@@ -5,8 +5,10 @@ A repository for learning LangChain by building a generative AI application.
 This is a web application is using a Pinecone as a vectorsotre and answers questions about LangChain 
 (sources from LangChain official documentation).
 
+![Description](https://raw.githubusercontent.com/grilo13/rag-documentation-helper/main/static/streamlit_rag.gif)
+
 ## Tech Stack
-Frontend: Streamlit, NextJS ([assistant-ui](https://github.com/assistant-ui/assistant-ui/tree/main) react library for AI chat)
+Frontend: Streamlit, Next.js ([assistant-ui](https://github.com/assistant-ui/assistant-ui/tree/main) react library for AI chat)
 Server Side: LangChain, FastAPI
 Vectorstore: Milvus
 
@@ -34,6 +36,7 @@ Go to the project directory
 
 Download LangChain Documentation
 ```bash
+  cd backend
   mkdir langchain-docs
   wget -r -A.html -P langchain-docs  https://api.python.langchain.com/en/latest
 ```
@@ -44,12 +47,17 @@ Install dependencies
   poetry install
 ```
 
+Insert the documents in the Vector Store
+```bash
+  python ingestion.py
+```
+
+
 For simple chat retrieval example using Streamlit:
 
 Start the flask (streamlit) server
 
 ```bash
-  cd backend
   streamlit run streamlit_app.py
 ```
 

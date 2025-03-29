@@ -3,7 +3,7 @@ from fastapi.responses import StreamingResponse
 
 from backend.app.schemas.message import MessageContainer
 from backend.app.utils import process_message_container, create_sources_string, stream_chat_response
-from backend.src.utils.core import run_llm
+from backend.utils import run_llm
 
 router = APIRouter(prefix="/chat", tags=["chat"])
 
