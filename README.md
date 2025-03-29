@@ -18,11 +18,11 @@ It features:
 ![Description](https://github.com/grilo13/rag-documentation-helper/blob/main/static/streamlit_rag.gif)
 
 ## Tech Stack
-Frontend: Streamlit, Next.js ([assistant-ui](https://github.com/assistant-ui/assistant-ui/tree/main) react library for AI chat)
+`Frontend`: Streamlit, Next.js ([assistant-ui](https://github.com/assistant-ui/assistant-ui/tree/main) react library for AI chat)
 
-Server Side: LangChain, FastAPI
+`Server Side`: LangChain, FastAPI
 
-Vectorstore: Milvus
+`Vectorstore`: Milvus
 
 ## Environment Variables
 
