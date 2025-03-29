@@ -5,7 +5,7 @@ A repository for learning LangChain by building a generative AI application.
 This is a web application is using a Pinecone as a vectorsotre and answers questions about LangChain 
 (sources from LangChain official documentation).
 
-![Description](https://raw.githubusercontent.com/grilo13/rag-documentation-helper/main/static/streamlit_rag.gif)
+![Description](https://github.com/grilo13/rag-documentation-helper/blob/main/static/streamlit_rag.gif)
 
 ## Tech Stack
 Frontend: Streamlit, Next.js ([assistant-ui](https://github.com/assistant-ui/assistant-ui/tree/main) react library for AI chat)
