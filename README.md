@@ -1,15 +1,17 @@
 # LangChain Documentation Helper
 
-A repository for learning LangChain by building a generative AI application.
+This project implements a Retrieval-Augmented Generation (RAG) pipeline by storing documents in a Milvus vector database, enabling efficient similarity searches. 
 
-This is a web application is using a Pinecone as a vectorsotre and answers questions about LangChain 
-(sources from LangChain official documentation).
+It features:
+- Document Ingestion: Embeds and stores documents in Milvus for retrieval
+- Custom API Backend (FastAPI): Handles LLM context interaction and document retrieval
+- Next.js + Assistant UI: A chat interface for user interaction, integrating real-time streaming responses from the LLM
 
-Assistant UI Example
+### Assistant UI Example
 
 ![Description](https://github.com/grilo13/rag-documentation-helper/blob/main/static/assistant_ui_rag.gif)
 
-Streamlit Example
+### Streamlit Example
 
 ![Description](https://github.com/grilo13/rag-documentation-helper/blob/main/static/streamlit_rag.gif)
 
@@ -23,7 +25,9 @@ Vectorstore: Milvus
 To run this project, you will need to add the following environment variables to your .env file
 
 `URI`: URI for the Milvus vector store
+
 `COLLECTION`: collection to store and retrieve documents
+
 `OPENAI_API_KEY`
 
 ## Run Locally
@@ -53,11 +57,10 @@ Install dependencies
   poetry install
 ```
 
-Insert the documents in the Vector Store
+Insert the documents in the Milvus Vector Store
 ```bash
   python ingestion.py
 ```
-
 
 For simple chat retrieval example using Streamlit:
 
@@ -88,8 +91,6 @@ And run Next.js app (on localhost:3000)
   cd frontend
   npm run dev
 ```
-
-
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pedrogrilo13/)
