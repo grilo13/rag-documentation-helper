@@ -12,7 +12,7 @@ from pydantic import BaseModel
 
 load_dotenv()
 
-COLLECTION_NAME = os.getenv('COLLECTION_NAME')
+COLLECTION_NAME = os.getenv('COLLECTION')
 
 
 class ChatMessage(BaseModel):

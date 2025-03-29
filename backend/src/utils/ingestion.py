@@ -9,7 +9,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 load_dotenv()
 
-COLLECTION_NAME = os.getenv('COLLECTION_NAME')
+COLLECTION_NAME = os.getenv('COLLECTION')
 
 embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
 
