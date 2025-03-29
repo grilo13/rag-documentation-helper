@@ -19,7 +19,9 @@ It features:
 
 ## Tech Stack
 Frontend: Streamlit, Next.js ([assistant-ui](https://github.com/assistant-ui/assistant-ui/tree/main) react library for AI chat)
+
 Server Side: LangChain, FastAPI
+
 Vectorstore: Milvus
 
 ## Environment Variables
