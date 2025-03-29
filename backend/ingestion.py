@@ -11,7 +11,7 @@ load_dotenv()
 
 COLLECTION_NAME = os.getenv('COLLECTION')
 
-embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
+embeddings = OpenAIEmbeddings(model="text-embedding-3-large")
 
 
 def ingest_docs():

@@ -21,7 +21,7 @@ class ChatMessage(BaseModel):
 
 
 def run_llm(query: str, chat_history: List[Tuple[str, str]], use_stream: Optional[bool] = False):
-    embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
+    embeddings = OpenAIEmbeddings(model="text-embedding-3-large")
     milvus = Milvus(connection_args={'uri': os.getenv('URI')},
                     collection_name=COLLECTION_NAME,
                     embedding_function=embeddings)
